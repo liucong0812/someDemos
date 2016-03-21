@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2010D07D1C992962008464A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D07C1C992962008464A2 /* main.m */; };
+		2010D0801C992962008464A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D07F1C992962008464A2 /* AppDelegate.m */; };
+		2010D0831C992962008464A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0821C992962008464A2 /* ViewController.m */; };
+		2010D0861C992962008464A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2010D0841C992962008464A2 /* Main.storyboard */; };
+		2010D0891C992962008464A2 /* BestDemosWithiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0871C992962008464A2 /* BestDemosWithiOS.xcdatamodeld */; };
+		2010D08B1C992962008464A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2010D08A1C992962008464A2 /* Assets.xcassets */; };
+		2010D08E1C992962008464A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2010D08C1C992962008464A2 /* LaunchScreen.storyboard */; };
+		2010D0991C992962008464A2 /* BestDemosWithiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0981C992962008464A2 /* BestDemosWithiOSTests.m */; };
+		2010D0A41C992963008464A2 /* BestDemosWithiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0A31C992963008464A2 /* BestDemosWithiOSUITests.m */; };
+		2010D0B41C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0B31C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.m */; };
+		2010D0BA1C99320E008464A2 /* DemoDescribe.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2010D0B91C99320E008464A2 /* DemoDescribe.plist */; };
+		2010D0BD1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0BC1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.m */; };
+		2010D0C91C994D25008464A2 /* AutoLayouVIewWithSD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0C81C994D25008464A2 /* AutoLayouVIewWithSD.m */; };
+		2010D0CB1C994F27008464A2 /* AllAutoLayoutView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2010D0CA1C994F27008464A2 /* AllAutoLayoutView.plist */; };
+		2010D0CD1C995239008464A2 /* DemoViewControllerClassName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2010D0CC1C995239008464A2 /* DemoViewControllerClassName.plist */; };
+		2010D0D11C9955EF008464A2 /* SDAutoLayoutViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0D01C9955EF008464A2 /* SDAutoLayoutViewController0.m */; };
+		2010D0D41C99566E008464A2 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010D0D31C99566E008464A2 /* TouchView.m */; };
+		48BF6543C747BD5A583C208E /* libPods-BestDemosWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5579C807D9937F28BB5D09 /* libPods-BestDemosWithiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2010D0951C992962008464A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2010D0701C992962008464A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2010D0771C992962008464A2;
+			remoteInfo = BestDemosWithiOS;
+		};
+		2010D0A01C992963008464A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2010D0701C992962008464A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2010D0771C992962008464A2;
+			remoteInfo = BestDemosWithiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D82EF7D48D2E1119F43141 /* Pods-BestDemosWithiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDemosWithiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestDemosWithiOS/Pods-BestDemosWithiOS.release.xcconfig"; sourceTree = "<group>"; };
+		2010D0781C992962008464A2 /* BestDemosWithiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestDemosWithiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2010D07C1C992962008464A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2010D07E1C992962008464A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2010D07F1C992962008464A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2010D0811C992962008464A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2010D0821C992962008464A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2010D0851C992962008464A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2010D0881C992962008464A2 /* BestDemosWithiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BestDemosWithiOS.xcdatamodel; sourceTree = "<group>"; };
+		2010D08A1C992962008464A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2010D08D1C992962008464A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2010D08F1C992962008464A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2010D0941C992962008464A2 /* BestDemosWithiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestDemosWithiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2010D0981C992962008464A2 /* BestDemosWithiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestDemosWithiOSTests.m; sourceTree = "<group>"; };
+		2010D09A1C992962008464A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2010D09F1C992963008464A2 /* BestDemosWithiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestDemosWithiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2010D0A31C992963008464A2 /* BestDemosWithiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestDemosWithiOSUITests.m; sourceTree = "<group>"; };
+		2010D0A51C992963008464A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2010D0B11C992974008464A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		2010D0B21C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutWIthTableViewViewController.h; sourceTree = "<group>"; };
+		2010D0B31C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutWIthTableViewViewController.m; sourceTree = "<group>"; };
+		2010D0B91C99320E008464A2 /* DemoDescribe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DemoDescribe.plist; sourceTree = "<group>"; };
+		2010D0BB1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNameAndDescribeTableViewCell.h; sourceTree = "<group>"; };
+		2010D0BC1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNameAndDescribeTableViewCell.m; sourceTree = "<group>"; };
+		2010D0C71C994D25008464A2 /* AutoLayouVIewWithSD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayouVIewWithSD.h; sourceTree = "<group>"; };
+		2010D0C81C994D25008464A2 /* AutoLayouVIewWithSD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayouVIewWithSD.m; sourceTree = "<group>"; };
+		2010D0CA1C994F27008464A2 /* AllAutoLayoutView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AllAutoLayoutView.plist; sourceTree = "<group>"; };
+		2010D0CC1C995239008464A2 /* DemoViewControllerClassName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DemoViewControllerClassName.plist; sourceTree = "<group>"; };
+		2010D0CF1C9955EF008464A2 /* SDAutoLayoutViewController0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayoutViewController0.h; sourceTree = "<group>"; };
+		2010D0D01C9955EF008464A2 /* SDAutoLayoutViewController0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAutoLayoutViewController0.m; sourceTree = "<group>"; };
+		2010D0D21C99566E008464A2 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		2010D0D31C99566E008464A2 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		3EABBAD1880EF0A9569118DB /* Pods-BestDemosWithiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDemosWithiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestDemosWithiOS/Pods-BestDemosWithiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5579C807D9937F28BB5D09 /* libPods-BestDemosWithiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestDemosWithiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2010D0751C992962008464A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BF6543C747BD5A583C208E /* libPods-BestDemosWithiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2010D0911C992962008464A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2010D09C1C992963008464A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2010D06F1C992962008464A2 = {
+			isa = PBXGroup;
+			children = (
+				2010D07A1C992962008464A2 /* BestDemosWithiOS */,
+				2010D0971C992962008464A2 /* BestDemosWithiOSTests */,
+				2010D0A21C992963008464A2 /* BestDemosWithiOSUITests */,
+				2010D0791C992962008464A2 /* Products */,
+				314B1F4F2B2CF5E45F4A248D /* Pods */,
+				8851865A6A6B0ACA807F6806 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2010D0791C992962008464A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0781C992962008464A2 /* BestDemosWithiOS.app */,
+				2010D0941C992962008464A2 /* BestDemosWithiOSTests.xctest */,
+				2010D09F1C992963008464A2 /* BestDemosWithiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2010D07A1C992962008464A2 /* BestDemosWithiOS */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0C61C994C94008464A2 /* AutoLayoutWithSDAutoLayOut */,
+				2010D0BE1C99409D008464A2 /* Vender */,
+				2010D0B51C9931A2008464A2 /* unit */,
+				2010D07E1C992962008464A2 /* AppDelegate.h */,
+				2010D07F1C992962008464A2 /* AppDelegate.m */,
+				2010D0811C992962008464A2 /* ViewController.h */,
+				2010D0821C992962008464A2 /* ViewController.m */,
+				2010D0BB1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.h */,
+				2010D0BC1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.m */,
+				2010D0841C992962008464A2 /* Main.storyboard */,
+				2010D08A1C992962008464A2 /* Assets.xcassets */,
+				2010D08C1C992962008464A2 /* LaunchScreen.storyboard */,
+				2010D08F1C992962008464A2 /* Info.plist */,
+				2010D0871C992962008464A2 /* BestDemosWithiOS.xcdatamodeld */,
+				2010D07B1C992962008464A2 /* Supporting Files */,
+			);
+			path = BestDemosWithiOS;
+			sourceTree = "<group>";
+		};
+		2010D07B1C992962008464A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0B11C992974008464A2 /* PrefixHeader.pch */,
+				2010D07C1C992962008464A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2010D0971C992962008464A2 /* BestDemosWithiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0981C992962008464A2 /* BestDemosWithiOSTests.m */,
+				2010D09A1C992962008464A2 /* Info.plist */,
+			);
+			path = BestDemosWithiOSTests;
+			sourceTree = "<group>";
+		};
+		2010D0A21C992963008464A2 /* BestDemosWithiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0A31C992963008464A2 /* BestDemosWithiOSUITests.m */,
+				2010D0A51C992963008464A2 /* Info.plist */,
+			);
+			path = BestDemosWithiOSUITests;
+			sourceTree = "<group>";
+		};
+		2010D0B51C9931A2008464A2 /* unit */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0B91C99320E008464A2 /* DemoDescribe.plist */,
+				2010D0CA1C994F27008464A2 /* AllAutoLayoutView.plist */,
+				2010D0CC1C995239008464A2 /* DemoViewControllerClassName.plist */,
+			);
+			name = unit;
+			sourceTree = "<group>";
+		};
+		2010D0BE1C99409D008464A2 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2010D0C61C994C94008464A2 /* AutoLayoutWithSDAutoLayOut */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0B21C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.h */,
+				2010D0B31C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.m */,
+				2010D0C71C994D25008464A2 /* AutoLayouVIewWithSD.h */,
+				2010D0C81C994D25008464A2 /* AutoLayouVIewWithSD.m */,
+				2010D0CE1C9955B1008464A2 /* AutoLayoutViewController0 */,
+			);
+			name = AutoLayoutWithSDAutoLayOut;
+			sourceTree = "<group>";
+		};
+		2010D0CE1C9955B1008464A2 /* AutoLayoutViewController0 */ = {
+			isa = PBXGroup;
+			children = (
+				2010D0CF1C9955EF008464A2 /* SDAutoLayoutViewController0.h */,
+				2010D0D01C9955EF008464A2 /* SDAutoLayoutViewController0.m */,
+				2010D0D21C99566E008464A2 /* TouchView.h */,
+				2010D0D31C99566E008464A2 /* TouchView.m */,
+			);
+			name = AutoLayoutViewController0;
+			sourceTree = "<group>";
+		};
+		314B1F4F2B2CF5E45F4A248D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EABBAD1880EF0A9569118DB /* Pods-BestDemosWithiOS.debug.xcconfig */,
+				11D82EF7D48D2E1119F43141 /* Pods-BestDemosWithiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8851865A6A6B0ACA807F6806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5579C807D9937F28BB5D09 /* libPods-BestDemosWithiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2010D0771C992962008464A2 /* BestDemosWithiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2010D0A81C992963008464A2 /* Build configuration list for PBXNativeTarget "BestDemosWithiOS" */;
+			buildPhases = (
+				41CC32959998BA4E2ABA2F34 /* Check Pods Manifest.lock */,
+				2010D0741C992962008464A2 /* Sources */,
+				2010D0751C992962008464A2 /* Frameworks */,
+				2010D0761C992962008464A2 /* Resources */,
+				13EFB7F2DEBEDF7FB64AD007 /* Embed Pods Frameworks */,
+				DC8FC4160DEF186F21007EDA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestDemosWithiOS;
+			productName = BestDemosWithiOS;
+			productReference = 2010D0781C992962008464A2 /* BestDemosWithiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2010D0931C992962008464A2 /* BestDemosWithiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2010D0AB1C992963008464A2 /* Build configuration list for PBXNativeTarget "BestDemosWithiOSTests" */;
+			buildPhases = (
+				2010D0901C992962008464A2 /* Sources */,
+				2010D0911C992962008464A2 /* Frameworks */,
+				2010D0921C992962008464A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2010D0961C992962008464A2 /* PBXTargetDependency */,
+			);
+			name = BestDemosWithiOSTests;
+			productName = BestDemosWithiOSTests;
+			productReference = 2010D0941C992962008464A2 /* BestDemosWithiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2010D09E1C992963008464A2 /* BestDemosWithiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2010D0AE1C992963008464A2 /* Build configuration list for PBXNativeTarget "BestDemosWithiOSUITests" */;
+			buildPhases = (
+				2010D09B1C992963008464A2 /* Sources */,
+				2010D09C1C992963008464A2 /* Frameworks */,
+				2010D09D1C992963008464A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2010D0A11C992963008464A2 /* PBXTargetDependency */,
+			);
+			name = BestDemosWithiOSUITests;
+			productName = BestDemosWithiOSUITests;
+			productReference = 2010D09F1C992963008464A2 /* BestDemosWithiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2010D0701C992962008464A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					2010D0771C992962008464A2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2010D0931C992962008464A2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2010D0771C992962008464A2;
+					};
+					2010D09E1C992963008464A2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2010D0771C992962008464A2;
+					};
+				};
+			};
+			buildConfigurationList = 2010D0731C992962008464A2 /* Build configuration list for PBXProject "BestDemosWithiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2010D06F1C992962008464A2;
+			productRefGroup = 2010D0791C992962008464A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2010D0771C992962008464A2 /* BestDemosWithiOS */,
+				2010D0931C992962008464A2 /* BestDemosWithiOSTests */,
+				2010D09E1C992963008464A2 /* BestDemosWithiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2010D0761C992962008464A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2010D0CD1C995239008464A2 /* DemoViewControllerClassName.plist in Resources */,
+				2010D08E1C992962008464A2 /* LaunchScreen.storyboard in Resources */,
+				2010D08B1C992962008464A2 /* Assets.xcassets in Resources */,
+				2010D0861C992962008464A2 /* Main.storyboard in Resources */,
+				2010D0BA1C99320E008464A2 /* DemoDescribe.plist in Resources */,
+				2010D0CB1C994F27008464A2 /* AllAutoLayoutView.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2010D0921C992962008464A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2010D09D1C992963008464A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EFB7F2DEBEDF7FB64AD007 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestDemosWithiOS/Pods-BestDemosWithiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41CC32959998BA4E2ABA2F34 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8FC4160DEF186F21007EDA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestDemosWithiOS/Pods-BestDemosWithiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2010D0741C992962008464A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2010D0C91C994D25008464A2 /* AutoLayouVIewWithSD.m in Sources */,
+				2010D0B41C992FA8008464A2 /* AutoLayoutWIthTableViewViewController.m in Sources */,
+				2010D0831C992962008464A2 /* ViewController.m in Sources */,
+				2010D0D41C99566E008464A2 /* TouchView.m in Sources */,
+				2010D0801C992962008464A2 /* AppDelegate.m in Sources */,
+				2010D0891C992962008464A2 /* BestDemosWithiOS.xcdatamodeld in Sources */,
+				2010D0D11C9955EF008464A2 /* SDAutoLayoutViewController0.m in Sources */,
+				2010D0BD1C993AFA008464A2 /* DemoNameAndDescribeTableViewCell.m in Sources */,
+				2010D07D1C992962008464A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2010D0901C992962008464A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2010D0991C992962008464A2 /* BestDemosWithiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2010D09B1C992963008464A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2010D0A41C992963008464A2 /* BestDemosWithiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2010D0961C992962008464A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2010D0771C992962008464A2 /* BestDemosWithiOS */;
+			targetProxy = 2010D0951C992962008464A2 /* PBXContainerItemProxy */;
+		};
+		2010D0A11C992963008464A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2010D0771C992962008464A2 /* BestDemosWithiOS */;
+			targetProxy = 2010D0A01C992963008464A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2010D0841C992962008464A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2010D0851C992962008464A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2010D08C1C992962008464A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2010D08D1C992962008464A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2010D0A61C992963008464A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2010D0A71C992963008464A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2010D0A91C992963008464A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EABBAD1880EF0A9569118DB /* Pods-BestDemosWithiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = BestDemosWithiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BestDemosWithiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		2010D0AA1C992963008464A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D82EF7D48D2E1119F43141 /* Pods-BestDemosWithiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = BestDemosWithiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BestDemosWithiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		2010D0AC1C992963008464A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BestDemosWithiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BestDemosWithiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestDemosWithiOS.app/BestDemosWithiOS";
+			};
+			name = Debug;
+		};
+		2010D0AD1C992963008464A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BestDemosWithiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BestDemosWithiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestDemosWithiOS.app/BestDemosWithiOS";
+			};
+			name = Release;
+		};
+		2010D0AF1C992963008464A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BestDemosWithiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BestDemosWithiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BestDemosWithiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2010D0B01C992963008464A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BestDemosWithiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BestDemosWithiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BestDemosWithiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2010D0731C992962008464A2 /* Build configuration list for PBXProject "BestDemosWithiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2010D0A61C992963008464A2 /* Debug */,
+				2010D0A71C992963008464A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2010D0A81C992963008464A2 /* Build configuration list for PBXNativeTarget "BestDemosWithiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2010D0A91C992963008464A2 /* Debug */,
+				2010D0AA1C992963008464A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2010D0AB1C992963008464A2 /* Build configuration list for PBXNativeTarget "BestDemosWithiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2010D0AC1C992963008464A2 /* Debug */,
+				2010D0AD1C992963008464A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2010D0AE1C992963008464A2 /* Build configuration list for PBXNativeTarget "BestDemosWithiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2010D0AF1C992963008464A2 /* Debug */,
+				2010D0B01C992963008464A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2010D0871C992962008464A2 /* BestDemosWithiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2010D0881C992962008464A2 /* BestDemosWithiOS.xcdatamodel */,
+			);
+			currentVersion = 2010D0881C992962008464A2 /* BestDemosWithiOS.xcdatamodel */;
+			path = BestDemosWithiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2010D0701C992962008464A2 /* Project object */;
+}

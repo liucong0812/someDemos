@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Describe</key>
+		<string>使用SDAutoLayout自适应框架来进行界面的搭建和变换。</string>
+		<key>Name</key>
+		<string>AutoLayoutWithSDAutoLayoutView</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>AUtoLayoutViewWithMasonry</string>
+		<key>Describe</key>
+		<string>使用Masonry自适应框架来进行界面的搭建和变换。</string>
+	</dict>
+	<dict>
+		<key>Describe</key>
+		<string>各种多线程的方法，了解多线程的原理和使用，尽量使用多种方法来实现多线程，就是为了凑字，凑字，————————各种字符凑字</string>
+		<key>Name</key>
+		<string>多线程</string>
+	</dict>
+	<dict>
+		<key>Describe</key>
+		<string>本地缓存的各种方式，包含KeyChain、NSUserDefaults、CoreData、SQLite等</string>
+		<key>Name</key>
+		<string>本地缓存</string>
+	</dict>
+	<dict>
+		<key>Describe</key>
+		<string>研究Runtime、RunLoop的机制</string>
+		<key>Name</key>
+		<string>双Run</string>
+	</dict>
+	<dict>
+		<key>Describe</key>
+		<string>各种网络请求的机制、熟悉网络请求的原理</string>
+		<key>Name</key>
+		<string>网络请求</string>
+	</dict>
+	<dict>
+		<key>Describe</key>
+		<string>动画、各种动画.</string>
+		<key>Name</key>
+		<string>动画</string>
+	</dict>
+</array>
+</plist>

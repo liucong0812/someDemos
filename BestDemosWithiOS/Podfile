@@ -1,0 +1,18 @@
+workspace 'BestDemosWithiOS'
+xcodeproj 'BestDemosWithiOS'
+
+platform :ios, ‘7.0‘ 
+
+target 'BestDemosWithiOS', :exclusive => true do
+    
+    pod 'SDAutoLayout', '~> 1.31'
+	pod 'SDWebImage', '~> 3.7.3'
+	pod 'AFNetworking','~>2.5.4'
+	pod 'Masonry', '~> 0.6.3'
+	pod 'FMDB','~>2.5'
+
+end
+
+target 'BestDemosWithiOSTests', :exclusive => true do
+
+end
